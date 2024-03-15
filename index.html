@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <title>Consejos Médicos</title>
+    <link rel="icon" type="image/png" href="/IMAGENES/logus.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-area">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/IMAGENES/logi.png" alt="Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/HTML/urgente.html">Urgente</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/HTML/mitos.html">Mitos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/HTML/creencias.html">Creencias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/HTML/popularidad.html">Popularidad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/HTML/nosotros.html">Nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="contenido-sombreado">
+        <div id="miCarrusel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#miCarrusel" data-slide-to="0" class="active"></li>
+                <li data-target="#miCarrusel" data-slide-to="1"></li>
+                <li data-target="#miCarrusel" data-slide-to="2"></li>
+                <li data-target="#miCarrusel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/IMAGENES/bienvenidos.png" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/IMAGENES/mision.png" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/IMAGENES/vision.png" class="d-block w-100" alt="Imagen 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="/IMAGENES/valores.png" class="d-block w-100" alt="Imagen 4">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+
+        <main>
+            <div class="seccion-quienes-somos">
+                <div class="texto">
+                    <h2>¿Quiénes Somos?</h2>
+                    <p>Somos una empresa dedicada a ofrecer ayuda para personas con dudas o problemas de salud como
+                        podrían ser mitos o creencias sobre algunas cuestiones y quisa otros más específicos como
+                        podrían ser una ayuda para asuntos de carácter urgente. </p>
+                        <p><i>Si desea más información o cuestiones específicas debe buscar ayuda de profesionales de la salud.</i></p>
+                </div>
+                <div class="imagen-animada">
+                    <img src="/IMAGENES/logo.png" alt="Imagen Animada">
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-column">
+                    <h4>Contacto</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> Email: consejos.itt@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> Teléfono: +52 664 728 7455</li>
+                        <!-- Puedes agregar más información de contacto aquí -->
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-column">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="quick-links">
+                        <li><a href="/HTML/nosotros.html">Nosotros</a></li>
+                        <li><a href="/HTML/popularidad.html">Popularidad</a></li>
+                        <!-- Agrega más enlaces según sea necesario -->
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-column">
+                    <h4>Síguenos</h4>
+                    <ul class="social-list">
+                        <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i>
+                                Facebook</a></li>
+                        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                        </li>
+                        <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i>
+                                Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 footer-column">
+                <h4>Suscríbete a Nuestro Boletín</h4>
+                <p>Recibe las últimas noticias y ofertas directamente en tu bandeja de entrada.</p>
+                <!-- Inicio del formulario -->
+                <form action="https://formspree.io/f/xjvnvrqp" method="POST">
+                    <input type="email" name="email" placeholder="Tu correo electrónico" required>
+
+                    <button type="submit">Suscribirse</button>
+                </form>
+                <!-- Fin del formulario -->
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SRWCM. Todos los derechos reservados.</p>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/JS/javascripts.js"></script>
+    
+</body>
+
+</html>

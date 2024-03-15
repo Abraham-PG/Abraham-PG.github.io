@@ -1,0 +1,1026 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    background-color: #d9d9d9;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-top: 35px;
+
+}
+
+@media (max-width: 468px) {
+
+    body,
+    header,
+    footer,
+    header .navbar {
+        min-width: 440px;
+        /* o incluso eliminar esta propiedad si no es necesaria */
+    }
+}
+
+header,
+footer {
+    background-color: #e1ecf0;
+    border-radius: 10px;
+
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-left: 60px;
+}
+
+header .navbar {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    background: linear-gradient(to right, #87CEEB, #FFFFFF);
+    background-size: 200% 200%;
+    animation: gradientAnimation 15s ease infinite;
+    transition: background-color 0.3s;
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    backdrop-filter: blur(0);
+
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #87CEEB, #FFFFFF);
+}
+
+.transparent {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.non-transparent {
+    background-color: #87CEEB;
+    transition: background-color 0.3s;
+}
+
+.header-transparent {
+    background: linear-gradient(to right, rgba(135, 206, 235, 0.8), rgba(255, 255, 255, 0.8));
+    backdrop-filter: blur(5px);
+}
+
+.header-transparent .navbar-light .navbar-nav .nav-link {
+    color: rgba(52, 58, 64, 0.8);
+}
+
+.header-hover .navbar-light .navbar-nav .nav-link {
+    color: #343a40;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+    transition: transform 0.3s;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #343a40;
+    transition: color 0.3s;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #212529;
+}
+
+.header-area {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #333333;
+    padding: 5px 10px;
+    box-shadow: none;
+    border-radius: 5px;
+    transition: color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:focus {
+    color: #555555;
+    transform: scale(1.05);
+    box-shadow: none;
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+    transition: height 0.3s;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-item {
+    height: auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: pointer;
+}
+
+.contenido-sombreado {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 40px;
+    /* ajusta a tu preferencia */
+
+}
+
+.nav-link,
+.btn-primary {
+    color: #0056b3;
+}
+
+.nav-link:hover,
+.btn-primary:hover {
+    color: #003366;
+}
+
+.navbar-collapse {
+    border-radius: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.container,
+.card,
+.panel,
+.slider-container,
+.slider-container .slider,
+.carousel,
+.carousel-inner,
+.carousel-item,
+.imagen-animada,
+.imagen-animada img {
+    border-radius: 15px;
+}
+
+.slider-container,
+.carousel {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.carousel .carousel-item {
+    transition: transform 0.5s, opacity 0.5s;
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel .carousel-item.active {
+    opacity: 1;
+    transform: translateX(0);
+    position: relative;
+}
+
+.seccion-quienes-somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.seccion-quienes-somos h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.seccion-quienes-somos .texto {
+    max-width: 50%;
+    padding-right: 20px;
+}
+
+
+.imagen-animada {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: auto; /* Centra el contenedor en la página si es necesario */
+    flex-wrap: nowrap; /* Permite que los elementos se ajusten en líneas adicionales si no caben */
+    gap: 10px; /* Espacio entre las imágenes */
+}
+.imagen-animada img {
+
+    max-width: 90%;
+    margin-right: 40px; /* Espacio a la derecha de la primera imagen */
+    margin-left: 30px;
+    height: 450px;
+    animation: combinedAnimation 10s ease-in-out infinite;
+}
+
+
+@keyframes combinedAnimation {
+    0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }
+    25% { transform: scale(1.05) rotate(-5deg); opacity: 0.9; }
+    50% { transform: scale(1) rotate(5deg); opacity: 1; }
+    75% { transform: scale(0.95) rotate(0deg); opacity: 0.9; }
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+      width: 100%;
+      justify-content: center;
+    }
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .nav-link {
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .imagen-animada img {
+        max-width: 100%;
+        height: 300px;
+        margin-right: 20px; /* Espacio a la derecha de la primera imagen */
+        margin-left: 15px;
+        
+        margin-bottom: 10px; /* Agrega espacio debajo de cada imagen */
+    }
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(128, 128, 128, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Estilos generales de la página */
+/* Estilos generales del footer */
+.footer-area {
+    background-color: #e1ecf0;
+    padding: 20px 0;
+    color: #333333;
+}
+
+.footer-area h4 {
+    margin-bottom: 15px;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links li a {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+    color: #003366;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #0056b3;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-links a:hover {
+    color: #003366;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    text-align: center;
+    /* Asegúrate de que este estilo sea suficiente para centrar el texto */
+    /* Cualquier otro estilo específico para el footer aquí */
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+}
+
+.social-list li {
+    margin-bottom: 10px;
+    /* Espacio entre elementos de la lista */
+}
+
+.social-list li a {
+    display: inline-flex;
+    /* Mantiene el ícono y el texto alineados */
+    align-items: center;
+    /* Centra verticalmente el ícono con el texto */
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-list li a i {
+    margin-right: 10px;
+    /* Espacio entre el ícono y el texto */
+    width: 20px;
+    /* Asegura que todos los íconos tengan el mismo ancho */
+}
+
+.social-list li a:hover {
+    color: #003366;
+}
+
+.quick-links {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin-bottom: 10px;
+    /* Espacio entre elementos de la lista */
+}
+
+.quick-links li a {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.3s, padding-left 0.3s;
+}
+
+.quick-links li a:hover {
+    color: #003366;
+    padding-left: 8px;
+    /* Crea un efecto al pasar el mouse sobre el enlace */
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+    /* Espacio entre elementos de la lista */
+    color: #333333;
+    /* Color del texto */
+    display: flex;
+    /* Alinea el ícono con el texto */
+    align-items: center;
+    /* Centra verticalmente el ícono con el texto */
+}
+
+.contact-info li i {
+    margin-right: 10px;
+    /* Espacio entre el ícono y el texto */
+    color: #0056b3;
+    /* Color del ícono */
+    width: 20px;
+    /* Asegura que todos los íconos tengan el mismo ancho */
+}
+
+.footer-column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.footer-column button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-column button:hover {
+    background-color: #003366;
+}
+
+
+
+
+
+.menu-urgente {
+    display: flex;
+    /* Usa flexbox para alinear elementos */
+    justify-content: center;
+    /* Centra los elementos en el contenedor */
+    align-items: center;
+    /* Alinea los elementos verticalmente */
+    padding: 0;
+    margin: 0 auto;
+    /* Centra el contenedor del menú */
+    max-width: 100%;
+    /* Asegúrate de que el menú no exceda el ancho de la página */
+    background-color: transparent;
+    /* O cualquier otro color que desees */
+    margin-top: 20px;
+}
+
+/* Estilos comunes para todas las secciones de contenido */
+#presentacion,
+#suplementos-y-sustancias,
+#amputaciones,
+#heridas-cortantes,
+#acc-sustancias,
+#resultadosBusqueda {
+    padding: 20px;
+    /* Espaciado interno */
+    margin-top: 20px;
+    /* Espacio por encima de cada sección */
+    margin-bottom: 20px;
+    /* Espacio debajo de cada sección */
+    background-color: white;
+    /* Color de fondo */
+    border: 1px solid #ddd;
+    /* Borde */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    /* Añade aquí cualquier otro estilo que quieras compartir entre secciones */
+}
+
+/* Estilos para los títulos dentro de las secciones */
+#presentacion h3,
+#suplementos-y-sustancias h3,
+#amputaciones h3,
+#heridas-cortantes h3,
+#acc-sustancias h3,
+#resultadosBusqueda h3 {
+    color: #0056b3;
+    /* Color para los títulos */
+    font-size: 24px;
+    /* Tamaño del título */
+    margin-bottom: 5px;
+    /* Espaciado debajo del título */
+}
+
+/* Estilos para las etiquetas dentro de las secciones */
+#presentacion .etiquetas,
+#suplementos-y-sustancias .etiquetas,
+#amputaciones .etiquetas,
+#heridas-cortantes .etiquetas,
+#acc-sustancias .etiquetas,
+#resultadosBusqueda .etiquetas {
+    font-style: italic;
+    /* Estilo para las etiquetas */
+    color: #333333;
+    /* Color para las etiquetas */
+    margin-bottom: 10px;
+    /* Espaciado debajo de las etiquetas */
+}
+
+/* Estilos para los párrafos dentro de las secciones */
+#presentacion p,
+#suplementos-y-sustancias p,
+#amputaciones p,
+#heridas-cortantes p,
+#acc-sustancias p,
+#resultadosBusqueda p {
+    color: #333333;
+    /* Color del texto */
+    line-height: 1.6;
+    /* Espaciado entre líneas para mejorar la legibilidad */
+    margin-bottom: 15px;
+    /* Espaciado debajo de cada párrafo */
+    font-size: 16px;
+    /* Tamaño del texto */
+}
+
+
+
+.menu-urgente .nav {
+    display: flex;
+    justify-content: space-around;
+    /* Distribuye el espacio alrededor de los elementos */
+    width: 100%;
+    /* Ocupa todo el ancho del contenedor */
+    padding-left: 0;
+    /* Restablece el padding predeterminado */
+    list-style: none;
+    /* Elimina los estilos de lista por defecto */
+}
+
+.menu-urgente .nav-item {
+    /* No es necesario establecer flex: 1 si quieres que los elementos se ajusten a su contenido */
+    margin: 0 10px;
+    /* Agrega un margen horizontal si es necesario */
+}
+
+.menu-urgente .nav-link.active {
+    color: white;
+    /* Asegurándose de que el texto sea legible contra el fondo */
+    background-color: #b3c9e0;
+    /* O el color que prefieras que sea más suave que el actual */
+    border-bottom: none;
+    /* Si decides eliminar el borde */
+    box-shadow: none;
+    /* Opcional: si no quieres sombra */
+}
+
+
+.menu-urgente .nav-link {
+    padding: 10px;
+    /* Ajusta el padding según sea necesario */
+    color: #4f7eb0;
+    transition: color 0.3s, background-color 0.3s;
+    /* Transiciones suaves */
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.menu-urgente .nav-link:hover {
+    /* Estilos para hover */
+    color: #0056b3;
+    /* Color al pasar el ratón */
+    border-bottom: 2px solid #4686ca;
+    /* Borde visible al pasar el ratón */
+    /* ... otros estilos ... */
+}
+
+.menu-urgente .nav-link:hover,
+.menu-urgente .nav-link.active {
+    color: #0056b3;
+    /* Color al pasar el ratón */
+    border-bottom: 2px solid #4686ca;
+    /* Borde visible al pasar el ratón */
+}
+
+#presentacion h3 {
+    color: #4f7eb0;
+    /* El mismo color que usas en los enlaces del menú específico */
+    font-size: 24px;
+    /* Un tamaño de fuente que se siente adecuado para los títulos de sección */
+    font-weight: 600;
+    /* Peso de la fuente para que sea un poco más grueso si lo prefieres */
+    margin-bottom: 10px;
+    /* Agrega un poco de espacio debajo del título */
+    position: relative;
+    /* Posición relativa para el pseudo-elemento */
+    display: inline-block;
+    /* Hace que el elemento de bloque se ajuste al contenido */
+}
+
+#presentacion h3::after {
+    content: '';
+    display: block;
+    width: 100%;
+    /* Ajusta esto si quieres que la línea sea más corta */
+    height: 2px;
+    background-color: #4686ca;
+    /* El color de la línea */
+    position: absolute;
+    bottom: -10px;
+    /* Ajusta la posición debajo del título */
+    left: 0;
+}
+
+
+.info-oculta {
+    display: none;
+}
+
+.info-oculta h3 {
+    color: #0056b3;
+    /* Color para los títulos */
+    margin-bottom: 5px;
+    /* Espaciado debajo del título */
+}
+
+.info-oculta .etiquetas {
+    font-style: italic;
+    /* Estilo para las etiquetas */
+    color: #333333;
+    /* Color para las etiquetas */
+    margin-bottom: 10px;
+    /* Espaciado debajo de las etiquetas */
+}
+
+.info-oculta p {
+    color: #333333;
+    /* Color del texto */
+    line-height: 1.6;
+    /* Espaciado entre líneas para mejorar la legibilidad */
+    margin-bottom: 15px;
+    /* Espaciado debajo de cada párrafo */
+    font-size: 16px;
+    /* Tamaño del texto */
+    /* Puedes añadir más estilos como padding, bordes, etc., según tus necesidades */
+}
+
+.pagina {
+    display: none;
+    /* Oculta todas las páginas inicialmente */
+}
+
+/* Estilos para los botones de paginación */
+#paginacion button {
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#paginacion button:hover {
+    background-color: #e0e0e0;
+}
+
+.titulo-paginacion {
+    background-color: #f8f9fa;
+    /* Fondo claro */
+    border: 1px solid #e0e0e0;
+    /* Borde suave */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    margin: 20px 0;
+    /* Espacio arriba y abajo */
+    padding: 15px;
+    /* Relleno interno */
+    text-align: center;
+    /* Texto centrado */
+}
+
+.titulo-paginacion h4 {
+    color: #4f7eb0;
+    /* Color del texto */
+    font-size: 20px;
+    /* Tamaño del texto */
+    letter-spacing: 1px;
+    /* Espaciado de letras */
+    margin: 0;
+    /* Quitar margen por defecto */
+}
+
+.paginacion-suplementos-y-sustancias button,
+.paginacion-amputaciones button,
+.paginacion-heridas-cortantes button,
+.paginacion-acc-sustancias button {
+    background: linear-gradient(45deg, #687ac2, #58b7e7);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+body .paginacion-suplementos-y-sustancias button:hover,
+body .paginacion-amputaciones button:hover,
+body .paginacion-heridas-cortantes button:hover,
+body .paginacion-acc-sustancias button:hover {
+    box-shadow: 0 10px 20px -5px rgba(110, 72, 170, 0.5);
+}
+
+.resaltado {
+    background-color: yellow;
+}
+
+#resultadosBusqueda {
+    /* Estilos para la sección de resultados */
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.menu-urgente .nav-link:hover,
+.menu-urgente .nav-link.active {
+    color: #0056b3;
+    border-bottom: 2px solid #4686ca;
+}
+
+/* Para los títulos dentro de las secciones */
+.info-oculta h3,
+#resultadosBusqueda h3 {
+    color: #0056b3;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.info-oculta .etiquetas,
+#resultadosBusqueda .etiquetas {
+    font-style: italic;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.info-oculta p,
+#resultadosBusqueda p {
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+#contenedorPaginacion button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contenedorPaginacion button:hover {
+    background-color: #0056b3;
+}
+
+@media (min-width: 992px) {
+    .btn-busqueda {
+        /* Estilos para el botón en pantallas grandes */
+        padding: 10px 20px;
+        /* Ajustar el padding */
+        font-size: 16px;
+        /* Tamaño de la fuente */
+        border-radius: 5px;
+        /* Redondear las esquinas */
+        /* Otros estilos que desees aplicar */
+    }
+}
+
+@media (max-width: 991px) {
+    .btn-busqueda {
+        /* Estilos para el botón en pantallas pequeñas */
+        padding: 8px 15px;
+        /* Ajustar el padding */
+        font-size: 14px;
+        /* Reducir el tamaño de la fuente */
+        border-radius: 4px;
+        /* Redondear ligeramente las esquinas */
+        /* Otros estilos que desees aplicar */
+    }
+}
+
+#campoBusqueda {
+    width: 0;
+    transition: width 0.5s ease;
+    border: none;
+    padding: 0;
+    opacity: 0;
+}
+
+#campoBusqueda.expandir {
+    width: 150px;
+    /* Ancho ajustado */
+    padding: 5px;
+    opacity: 1;
+    border: 1px solid #ccc;
+}
+
+.btn-busqueda {
+    padding: 5px 10px;
+    /* Relleno ajustado */
+    /* Otros estilos del botón... */
+}
+
+/* Cambia el color de borde del botón por defecto */
+.btn-outline-success {
+    color: #333333;
+    /* Cambia #tuColorDeTextoNormal por tu color deseado */
+    border-color: #63a8e9;
+    /* Cambia #tuColorDeBordeNormal por tu color deseado */
+}
+
+/* Cambia los colores al pasar el ratón por encima del botón */
+.btn-outline-success:hover {
+    color: #333333;
+    /* Cambia #tuColorDeTextoHover por tu color deseado */
+    background-color: #89c1e9;
+    border-color: #6dcaee;
+    /* Cambia #tuColorDeBordeHover por tu color deseado */
+}
+
+/* Cambia los colores al mantener presionado el botón */
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.show>.btn-outline-success.dropdown-toggle {
+    color: #333333;
+    /* Cambia #tuColorDeTextoActivo por tu color deseado */
+    background-color: #829cdb;
+    /* Cambia #tuColorDeFondoActivo por tu color deseado */
+    border-color: #558cc7;
+    /* Cambia #tuColorDeBordeActivo por tu color deseado */
+}
+
+/* Cambia el color de la sombra de enfoque para el estado activo */
+.btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.btn-outline-success:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(157, 178, 201, 0.5);
+    /* Cambia tuColorRGBDeSombraActiva y tuOpacidadDeSombraActiva por los valores deseados */
+}
+
+/* Cambia los colores del botón cuando tiene el foco */
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(98, 164, 211, 0.73);
+    /* Cambia tuColorRGBDeSombra y tuOpacidadDeSombra por los valores deseados */
+}
+
+.contenedor-busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    /* Ajusta según tu preferencia */
+    margin: auto;
+}
+
+.subtema {
+    font-weight: bold; /* Aplica negrita */
+    text-indent: 20px; /* Sangría de 20 píxeles */
+    /* Puedes añadir más estilos aquí si lo necesitas */
+}
+
+.subtema-resaltado {
+    color: #FF0000!important; /* Color para subtemas resaltados */
+    font-weight: bold; /* Aplica negrita */
+    text-indent: 20px; /* Sangría de 20 píxeles */
+    /* Puedes añadir más estilos aquí si lo necesitas */
+}
+
+.texto-resaltado {
+    color: #FF0000!important; /* Color para textos resaltados */
+    
+}
+
+
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    /* Añade guiones automáticos para evitar espacios excesivos */
+    /* Mejora el espaciado entre letras y palabras para una justificación más uniforme */
+    letter-spacing: 0.015em;
+    word-spacing: 0.015em;
+}
+
+.bloque-contenido {
+    margin-bottom: 20px;
+    /* Espacio entre bloques */
+    padding: 15px;
+    /* Espacio dentro de cada bloque */
+    background-color: white;
+    /* Fondo para cada bloque */
+    border: 1px solid #ddd;
+    /* Borde sutil */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+}
+
+#myBtn {
+    display: none;
+    /* El botón está oculto por defecto */
+    position: fixed;
+    /* Posición fija en la página */
+    bottom: 20px;
+    /* 20px desde la parte inferior */
+    right: 30px;
+    /* 30px desde la derecha */
+    z-index: 99;
+    /* Asegúrate de que el botón no esté detrás de otros elementos */
+    border: none;
+    /* Sin borde */
+    outline: none;
+    /* Sin contorno */
+    background-color: rgb(121, 110, 220);
+    /* Fondo rojo */
+    color: rgb(255, 255, 255);
+    /* Texto blanco */
+    cursor: pointer;
+    /* Cursor tipo puntero */
+    padding: 15px;
+    /* Relleno */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    opacity: 0;
+    /* Comienza completamente transparente */
+    visibility: hidden;
+    /* Inicialmente no visible */
+    transition: opacity 1s linear, visibility 1s;
+    /* Transición suave para opacidad y visibilidad */
+}
+
+#myBtn.show {
+    display: block;
+    /* Asegúrate de que el botón sea un bloque para verlo */
+    opacity: 1;
+    /* Opacidad total para el botón visible */
+    visibility: visible;
+    /* El botón es visible */
+}
+
+
+#myBtn:hover {
+    background-color: #ddb65c;
+    /* Cambia el color al pasar el mouse */
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+        border-radius: 5px; /* Esquinas redondeadas */
+
+    }
+
+    .nav-link {
+        display: inline-block;
+        position: relative;
+        color: #333;
+        text-decoration: none;
+        overflow: hidden;
+        border: 2px solid transparent;
+        padding: 5px 10px;
+        transition: color 0.3s ease;
+        
+    }
+    
+    .nav-link:hover {
+        border-color: #0056b3; /* Color del borde */
+        animation: blinkingBorder 1s linear infinite;
+    }
+    
+    @keyframes blinkingBorder {
+        0%, 100% { border-color: transparent; }
+        50% { border-color: #0056b3; }
+    }
+    
+}

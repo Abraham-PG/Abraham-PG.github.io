@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.6">
+        <title>Consejos Médicos</title>
+        <link rel="icon" type="image/png" href="/IMAGENES/logus.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/CSS/mitos.css">
+    </head>
+</head>
+
+<body>
+    <header class="header-area">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/IMAGENES/logi.png" alt="Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navbarToggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="urgente.html">Urgente</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mitos.html">Mitos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="creencias.html">Creencias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="popularidad.html">Popularidad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <div class="contenedor-busqueda">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Buscar"
+                                    aria-label="Buscar" id="campoBusqueda">
+                                <button class="btn btn-outline-success my-2 my-sm-0 btn-busqueda" type="button"
+                                    onclick="buscar()">Buscar</button>
+
+
+                            </form>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="contenido-sombreado">
+
+        <div class="menu-urgente">
+            <div class="container">
+                <ul class="nav nav-pills">
+
+                    <li class="nav-item"><a class="nav-link active" href="#presentacion">Presentación de Sección</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#mitos">Mitos Médicos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resultadosBusqueda">Resultados de Búsqueda</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="presentacion">
+            <h3>Bienvenidos a Nuestra Sección de Información sobre Mitos</h3>
+            <br>
+            <br>
+            <br>
+            <div class="imagen-animada">
+                <img src="/IMAGENES/mitos.png" alt="Imagen Animada">
+            </div>
+            <br>
+            <br>
+            <p>En esta sección, exploraremos y desmentiremos una serie de mitos comunes relacionados con la salud y el
+                bienestar. Abordaremos hasta ideas erróneas sobre nutrición, ejercicio, y
+                tratamientos médicos. Nuestro objetivo es proporcionarte información veraz y basada en evidencia para
+                aclarar estos mitos y ayudarte a tomar decisiones informadas sobre tu salud.</p>
+
+            <p> Los mitos pueden ser persistentes y a menudo se difunden
+                sin una base científica sólida, por lo que es crucial abordarlos con un enfoque crítico y con base en el
+                conocimiento actual. Te invitamos a navegar a través de nuestros temas para descubrir hechos
+                interesantes y aclaraciones sobre numerosos mitos de salud que podrían haber influido en tus decisiones
+                de vida y salud.
+            </p>
+
+            <p><i>Si desea más información o cuestiones específicas debe buscar ayuda de profesionales de la salud.</i></p>
+        </div>
+
+        <div id="mitos" class="info-oculta">
+            <div class="pagina-mitos">
+                <div class="bloque-contenido">
+                    <h3>¿ES NECESARIO BEBER OCHO VASOS DE AGUA AL DÍA?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Hidratación, Salud, Nutrición</p>
+                    <p>No precisamente. La cantidad que debe beber depende de la humedad y la temperatura promedio del
+                        clima del estado en el que reside, así como de su nivel de actividad y sus genes. El cuerpo
+                        necesita determinada cantidad de líquido al día, pero tal vez no sean ocho vasos, es decir, no
+                        hay una cantidad fija. Sin embargo, un color de orina que es claro o transparente, siempre es
+                        una buena señal, puesto que indica un nivel de hidratación adecuado.</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>ES PELIGROSO AGUANTARSE UN ESTORNUDO</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Salud Respiratoria, Prevención</p>
+                    <p>¡Sí! Aunque no lo crea, esto es cierto. Cuando se impide a propósito un estornudo, esto aplica
+                        demasiada presión a los senos paranasales y los pulmones, lo cual puede ocasionar que se
+                        revienten tanto vasos sanguíneos como los tímpanos, incluso, irritación en la garganta y otros
+                        efectos. Nuestros médicos han atendido a muchos pacientes que se aguantaron de más los
+                        estornudos. Aunque los efectos adversos son poco comunes, aún es posible padecerlos. Por lo
+                        tanto, la próxima vez que esté a punto de estornudar, ¡deje que salga por completo el estornudo,
+                        sobre todo si sufre de una enfermedad respiratoria preexistente!</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>¿USAMOS SOLO EL 10% DE NUESTRA CAPACIDAD CEREBRAL?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Cerebro, Neurociencia</p>
+                    <p>No. No se sabe qué cantidad de nuestra capacidad cerebral usamos, pero definitivamente es más del
+                        10%. Aunque las tomografías computarizadas y las resonancias magnéticas han demostrado que hay
+                        ciertas áreas del cerebro que no usamos tanto, hasta las actividades más sencillas activan la
+                        mayoría de las áreas del cerebro. Algunas personas pueden usar más áreas del cerebro que otras,
+                        así que el porcentaje exacto depende de la persona.</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>AL AFEITARSE, ¿CRECE EL CABELLO MÁS OSCURO Y GRUESO QUE ANTES?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Cuidado Personal, Piel y Cabello</p>
+                    <p>Posiblemente. Aunque el afeitado puede estimular el crecimiento del cabello, la forma en la que
+                        el cabello vuelve a crecer depende en gran medida de sus genes. Por lo general, el cabello que
+                        vuelve a crecer no es más grueso ni más oscuro que antes. Sin embargo, crecerá más rápido.</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>¿LEER CON POCA LUZ CAUSA EFECTOS ADVERSOS EN LA VISTA?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Salud Ocular, Hábitos de Lectura</p>
+                    <p>No. Aunque la fatiga ocular sí es un padecimiento, las personas tienen diferentes niveles de
+                        tolerancia a la luz. Si usted es capaz de leer de manera adecuada con luz tenue sin sentir
+                        cansancio o dolor en los ojos, entonces, ¡disfrute de su libro en lo oscuro! Por otro lado, si
+                        le es difícil leer con luz tenue, quizá eso no sea lo más indicado para usted. Una vez más, esto
+                        es algo que depende de la persona y sus predilecciones.</p>
+                </div>
+            </div>
+            <div class="pagina-mitos" style="display: none;">
+                <div class="bloque-contenido">
+                    <h3>¿LAS PERSONAS SE VUELVEN MÁS BAJAS DE ESTATURA AL ENVEJECER?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Envejecimiento, Salud Ósea</p>
+                    <p>¡Sí! Con los años, puede disminuir el tamaño de los espacios entre las vértebras de la columna
+                        vertebral y eso reduce por una o dos pulgadas la estatura de las personas.</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>¿TRONARSE LOS DEDOS OCASIONA ARTRITIS?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Artritis, Salud Articular</p>
+                    <p>No. Esta es una idea equivocada común sobre la salud que no es cierta; no hay pruebas que la
+                        respalden en absoluto. Así que, si siente la necesidad de tronarse los dedos, hágalo, pero tome
+                        en cuenta que con el tiempo esto podría disminuir un poco la fuerza de prensión de sus manos.
+                    </p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>COMER PAVO OCASIONA SUEÑO</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Alimentación, Triptófano</p>
+                    <p>No precisamente. El pavo tiene la fama de ocasionarles sueño a las personas porque contiene
+                        triptófano, un aminoácido que a menudo se vincula con el sueño. Sin embargo, la realidad es que
+                        se sorprenderá al enterarse de cuántos otros alimentos también tienen un alto contenido de
+                        triptófano. Por lo tanto, comer pavo sí podría ser uno de los factores que contribuye al sueño
+                        que siente después de la cena del Día de Acción de Gracias, pero el puré de papa, el relleno y
+                        el pastel también tienen que ver.</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>¿ES NECESARIO MANTENERSE DESPIERTO(A) DESPUÉS DE SUFRIR UNA CONMOCIÓN CEREBRAL?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Traumatismos, Salud Cerebral</p>
+                    <p>No. En el pasado, la única forma de evaluar el funcionamiento cerebral de una persona que había
+                        sufrido una conmoción cerebral era despertarla a cada hora para así poder evaluar su capacidad
+                        de reaccionar. Hoy día, por medio de las tomografías computarizadas, las resonancias magnéticas
+                        y las tomografías por emisión de positrones nos podemos dar cuenta de qué tan consciente y
+                        orientada está la persona. De hecho, ahora sabemos que el cerebro se recupera más pronto cuando
+                        tiene mucho reposo.</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>¿HACE DAÑO NADAR JUSTO DESPUÉS DE COMER?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Natación, Digestión</p>
+                    <p>No. Aunque su mamá le haya comentado esta idea equivocada común sobre la salud, no es necesario
+                        que espere una hora para entrar a la piscina. La teoría original detrás de este mito era que el
+                        cuerpo quemaba tanta energía para digerir la comida que el flujo sanguíneo no alcanzaría a
+                        llegar a los brazos y las piernas, lo cual causaría que uno se ahogara. Esto es falso. Al nadar
+                        justo después de comer el único peligro es que posiblemente pudiera sentir malestar estomacal.
+                    </p>
+                </div>
+            </div>
+            <div class="pagina-mitos" style="display: none;">
+                <div class="bloque-contenido">
+                    <h3>¿LOS SUPLEMENTOS PUEDEN AYUDAR A COMBATIR LOS RESFRIADOS?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Suplementos, Sistema Inmunológico</p>
+                    <p>Posiblemente. Los nutrientes como la vitamina C pueden reforzar el sistema inmunológico, lo cual
+                        puede ayudar a reducir el tiempo que dura un resfriado, pero esto es solo si los toma de la
+                        manera adecuada y con moderación, ya que podrían ser dañinos si se toman en exceso. El exceso de
+                        nutrientes que resulta al tomar los suplementos de forma irresponsable puede ocasionar
+                        insuficiencia de los riñones y el hígado. Por eso, ¡hable primero con su médico antes de
+                        intentar curarse el resfriado con suplementos!</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>¿LOS DULCES Y OTROS ALIMENTOS AZUCARADOS CAUSAN ACNÉ GRAVE?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Acné, Nutrición y Piel</p>
+                    <p>No. El azúcar definitivamente no ayuda con el acné, pero tampoco lo causa. Siempre y cuando no
+                        consuma en exceso alimentos dulces, es probable que el azúcar y los dulces no afectarán mucho su
+                        piel. La cantidad de acné que presenta depende casi exclusivamente de sus genes y hormonas.
+                    </p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>¿ES PELIGROSO DESPERTAR A UN SONÁMBULO?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Trastornos del Sueño, Seguridad</p>
+                    <p>No precisamente. Despertar a un sonámbulo no ocasiona algún peligro a largo plazo. Sin embargo,
+                        lo mejor es encaminarlo tranquilamente a la cama en lugar de despertarlo a la fuerza. Esto
+                        protege al sonámbulo contra la desorientación (y le evite a usted una bofetada en la cara).</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3> LOS ANTIDEPRESIVOS SON SOLO PARA TRATAR LA DEPRESIÓN.</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Salud Mental, Antidepresivos</p>
+                    <p>Hay varios malentendidos comunes sobre el uso de antidepresivos. A menudo escucho a los pacientes
+                        decir que están más ansiosos que deprimidos, entonces, ¿por qué darles un antidepresivo? La
+                        razón de esto es que los químicos en su cuerpo que controlan la ansiedad y la depresión son muy
+                        similares. Por lo tanto, la vía para el tratamiento es similar. Pacientes con alta ansiedad a
+                        menudo se benefician de recibir un antidepresivo.</p>
+                    <p>Otra creencia común es que, si ha probado antidepresivos en el pasado, ahora no funcionarán. Este
+                        no es necesariamente el caso. Es posible que su dosis anterior no haya sido lo suficientemente
+                        alta o que no haya tomado el medicamento el tiempo suficiente para que sea efectivo. Siempre
+                        puede hablar con su médico de atención primaria sobre estas inquietudes.</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>LOS ANTIBIÓTICOS SON SIEMPRE LA RESPUESTA</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Antibióticos, Infecciones</p>
+                    <p>Como médico, es mi deber determinar en base a su historial y examen físico si tiene una infección
+                        bacteriana o viral. Es una cuestión de su seguridad, también. Si se le administra un antibiótico
+                        innecesariamente, podría desarrollar efectos secundarios o volverse resistente a los
+                        antibióticos. Además, la mayoría de las infecciones virales se resolverán con descanso y
+                        bebiendo muchos líquidos.
+                    </p>
+                </div>
+            </div>
+            <div class="pagina-mitos" style="display: none;">
+                <div class="bloque-contenido">
+                    <h3>LA VACUNA CONTRA LA GRIPE PODRÍA DARME GRIPE</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Vacunación, Gripe</p>
+                    <p>Las vacunas contra la gripe están hechas de virus que no están activos. Hay potencial para la
+                        vacuna contra la gripe causar síntomas similares a los de la gripe durante los primeros 2-3
+                        días, pero esto no es gripe. Además, todavía existe la posibilidad de contraer la gripe mientras
+                        su cuerpo todavía está tratando de desarrollar inmunidad, lo que puede demorar hasta dos semanas
+                        después de recibir la vacuna. Por lo tanto, si está expuesto a la gripe durante este período de
+                        dos semanas, podría contraer la gripe, pero no por la vacuna en sí.</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>LA HEPATITIS B ES UNA ENFERMEDAD RARA, ASÍ QUE NO TENGO MUCHAS PROBABILIDADES DE CONTAGIARME
+                    </h3>
+                    <p class="etiquetas">Etiquetas: Mito, Hepatitis B, Salud Pública</p>
+                    <p>De acuerdo con la World Health Organization, la hepatitis B es un virus que infecta el hígado, y
+                        una de las enfermedades más infecciosas en el mundo. Se disemina a través de contacto con sangre
+                        y fluidos corporales de una persona afectada. Más de un tercio de la población mundial se
+                        encuentra aquejada con el virus de la hepatitis B. Mundialmente, cerca de 400 millones de
+                        personas están crónicamente infectadas, dice WHO, aumentando la oportunidad de que puedan
+                        contraer una enfermedad hepática grave y cáncer del hígado. WHO urge a todos los que puedan
+                        correr riesgo de hepatitis B para que visiten a un profesional y se hagan las pruebas.
+                    </p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>¿BEBER AGUA LE AYUDA A PERDER PESO?</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Pérdida de Peso, Hidratación</p>
+                    <p>Simplemente añadir agua a su dieta no le ayudará a perder peso. Sin embargo, podría haber
+                        beneficios en esta estrategia si beber más agua significa beber menos refrescos o bebidas con
+                        azúcar añadida. El solo hecho de añadir agua a una dieta normal no produce pérdida de peso, a
+                        menos que usted de pasos para reducir su ingesta calórica y comience un programa de ejercicio
+                        regular. Para perder de peso, nada resulta más efectivo que mejorar la dieta y estar más activo,
+                        dice el Dr. Collazo.</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>COMER MANÍ MIENTRAS ESTÁ EMBARAZADA PUEDE CAUSAR ALERGIAS AL NIÑO</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Alergias, Embarazo</p>
+                    <p>Las alergias al maní son unas de las causas más comunes de reacciones severas a comer ciertos
+                        tipos de alimentos. El maní puede resultar en anafilaxia, el rápido desarrollo de reacciones
+                        alérgicas por todo el cuerpo, incluyendo inflamación de la garganta, erupciones con picazón y
+                        respiración silbante. Algunos estudios sugieren que las alergias al maní se están volviendo más
+                        comunes en la generación actual de niños.</p>
+                </div>
+                <div class="bloque-contenido">
+                    <h3>TOSER PUEDE AYUDAR A EVITAR UN ATAQUE CARDIACO</h3>
+                    <p class="etiquetas">Etiquetas: Mito, Salud Cardíaca, Emergencias Médicas</p>
+                    <p>Toser no ayuda en el caso de un ataque cardiaco. Llamar al 911 después de reconocer los signos de
+                        aviso es lo mejor que puede hacer, además de iniciar RCP si la persona que está ayudando está
+                        capacitada para hacerlo. Aparentemente, hace unos años se propagó como una enfermedad contagiosa
+                        un correo electrónico asegurando que cualquiera que advierta los síntomas de un ataque cardiaco
+                        mientras está solo, debe toser “repetida y vigorosamente, alternándolo con una respiración cada
+                        dos segundos más o menos hasta que llegue ayuda, o (regresa un latido cardiaco normal)”.
+                    </p>
+                    <p>Según la American Heart Association, la RCP tradicional no se utiliza para tratar víctimas de
+                        ataques cardiacos que están conscientes - sino solamente si el ataque cardiaco es seguido por un
+                        arresto cardiaco.</p>
+                </div>
+            </div>
+
+
+
+            <div class="titulo-paginacion">
+                <h4>Navegar por Páginas</h4>
+            </div>
+            <!-- Botones de Paginación -->
+            <div class="paginacion-mitos">
+
+                <button onclick="cambiarPagina('mitos', 1)">1</button>
+                <button onclick="cambiarPagina('mitos', 2)">2</button>
+                <button onclick="cambiarPagina('mitos', 3)">3</button>
+                <button onclick="cambiarPagina('mitos', 4)">4</button>
+            <!-- Más botones si hay más páginas -->
+            </div>
+        </div>
+
+        <div id="resultadosBusqueda" class="info-oculta" style="display: none;">
+            <p> No hay búsquedas actualmente.</p>
+            <br>
+            <br>
+        </div>
+
+        <div id="contenedorPaginacion" style="display: none;">
+        </div>
+
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Ir arriba">Volver</button>
+
+    </div>
+
+
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-column">
+                    <h4>Contacto</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> Email: consejos.itt@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> Teléfono: +52 664 728 7455</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-column">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="quick-links">
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="popularidad.html">Popularidad</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-column">
+                    <h4>Síguenos</h4>
+                    <ul class="social-list">
+                        <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i>
+                                Facebook</a></li>
+                        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                        </li>
+                        <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i>
+                                Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 footer-column">
+                <h4>Suscríbete a Nuestro Boletín</h4>
+                <p>Recibe las últimas noticias y ofertas directamente en tu bandeja de entrada.</p>
+                <form action="https://formspree.io/f/xjvnvrqp" method="POST">
+                    <input type="email" name="email" placeholder="Tu correo electrónico" required>
+
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SRWCM. Todos los derechos reservados.</p>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyC6xEUQmz9WA9WjHBfEV9AsZPCFTPX25sI",
+            authDomain: "srwcm-8a8c7.firebaseapp.com",
+            databaseURL: "https://srwcm-8a8c7-default-rtdb.firebaseio.com",
+            projectId: "srwcm-8a8c7",
+            storageBucket: "srwcm-8a8c7.appspot.com",
+            messagingSenderId: "130043260427",
+            appId: "1:130043260427:web:dc744718945ce41d0ce10e",
+            measurementId: "G-EYKZVVX671"
+        };
+
+
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="/JS/javascripts.js"></script>
+</body>
+
+</html>

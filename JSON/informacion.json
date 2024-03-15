@@ -1,0 +1,1009 @@
+[
+    {
+        "titulo": "QUEMADURAS MENORES (SI NO HAY RUPTURAS EN LA PIEL)",
+        "etiquetas": "Emergencia, Primeros Auxilios",
+        "contenido": [
+            {
+                "subtema": "Precaución:",
+                "resaltarSubtema": false,  
+                "texto": [
+                    {
+                        "frase": "Si usted no está seguro, trátela como una <b>quemadura mayor</b>. Las quemaduras graves necesitan atención médica inmediata. Llame al número local de emergencias o 911.",
+                        "resaltar": true
+                    }
+                ]
+            },
+            {
+                "subtema": "Como actuar:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "Deje correr agua fría sobre la zona de la <b>quemadura</b> o sumerja la zona en agua fría (no helada). Mantenga la zona en el agua durante al menos de 5 a 30 minutos. Una toalla limpia, húmeda y fría también ayuda a reducir el dolor.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "Calme y reconforte a la persona:",
+                "resaltarSubtema": false,  
+                "texto": [
+                    {
+                        "frase": "a) Luego de lavar o remojar la quemadura en agua, cúbrala con un vendaje estéril y seco o con un apósito limpio.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) Proteja la quemadura de presiones o fricciones.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) El ibuprofeno o el paracetamol de venta libre pueden ayudar a aliviar el dolor y la inflamación. NO le dé ácido acetilsalicílico (aspirin) a niños menores de 12 años.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "d) Una vez que se enfríe la piel, una loción humectante que contenga áloe y un antibiótico también puede ayudar.",
+                        "resaltar": false
+                    }
+                ]
+            }
+        ]
+    }
+    
+    ,
+    
+    {
+        "titulo": "QUEMADURAS GRAVES",
+        "etiquetas": "Emergencia, Primeros Auxilios, Hospitalización",
+        "contenido": [
+            {
+                "subtema": "Precaución:",
+                "resaltarSubtema": false,  
+                "texto": [
+                    {
+                        "frase": "Si alguien se prende fuego, dígale que se detenga, se tire al suelo y ruede.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "Como actuar:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "a) Envuelva a la persona con un material grueso como un abrigo de algodón o lana, una alfombra o una manta. Esto ayuda a apagar las llamas.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) Rocíe agua sobre la persona.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) Llame al 911 o al número local de emergencias.",
+                        "resaltar": true
+                    },
+                    {
+                        "frase": "d) Cerciórese de que la persona ya no esté en contacto con materiales ardientes o humeantes.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "e) NO le quite las ropas quemadas que estén pegadas a la piel.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "f) Verifique que la persona esté respirando. De ser necesario, comience a administrar respiración artificial y RCP.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "g) Cubra la zona de la quemadura con un vendaje estéril y seco (si lo hay) o una tela limpia. Una sábana es suficiente si la zona de la quemadura es extensa. NO aplique ungüentos. Evite reventar cualquier ampolla causada por la quemadura.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "h) Si los dedos de las manos o de los pies sufrieron quemaduras, sepárelos con compresas secas, estériles y anti adhesivas.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "i) Eleve la parte del cuerpo quemada por encima del nivel del corazón.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "j) Proteja la zona de presiones y fricciones.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "k) Si una lesión eléctrica puede haber causado la quemadura, NO toque directamente a la víctima. Utilice un objeto no metálico para separar a la persona de cables expuestos antes de comenzar a administrar los primeros auxilios.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "Cuando contactar a un profesional médico:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "a) La quemadura es muy grande, alrededor del tamaño de la palma de la mano o más grande.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) La quemadura es grave (de tercer grado).",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) Usted no está seguro de su gravedad.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "d) La quemadura es causada por sustancias químicas o electricidad.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "e) La persona muestra signos de shock.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "f) La persona inhaló humo.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "g) Se sospecha o se sabe que la quemadura se debe a maltrato físico.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "i) En caso de quemaduras menores, llame a su proveedor de atención médica si aún tiene dolor después de 48 horas.",
+                        "resaltar": false
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "CUANDO TE CORTAS UN DEDO DE LAS MANOS (AMPUTACIÓN)",
+        "etiquetas": "Emergencia, Primeros Auxilios, Hospitalización",
+        "contenido": [
+            {
+                "subtema": "Como actuar:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "a) Ante todo, trate de conservar la calma; recuerde que el objetivo principal es controlar el sangrado.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) Lo ideal es buscar ayuda con las personas alrededor, para asistirte con los pasos y buscar llamar al número de emergencias, así como para buscar un medio de transporte para acudir a un hospital.",
+                        "resaltar": true
+                    },
+                    {
+                        "frase": "c) Se debe aplicar compresión sobre la herida con elementos de uso diario como un pañuelo, una toalla o una prenda de vestir lo más limpia posible. Idealmente, se deben usar apósitos estériles, pero como ya se mencionó, este tipo de accidentes ocurren cuando menos se esperan.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "d) Al usar alguna prenda o toalla, con una venda se realzará un vendaje compresivo usando solo un poco de fuerza, se debe rodear tu mano usando la muñeca para dar estabilidad.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "e) Una vez realizado, acudir de forma inmediata a un hospital o esperar por algún vehículo de emergencia.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "Casi siempre los accidentes donde se produce la amputación de una parte del cuerpo ocurren en lugares como: el sitio de trabajo, el campo, la casa, donde no estamos en compañía de alguien con los conocimientos requeridos para prestar la ayuda adecuada. Evite aplicar torniquetes que pueden empeorar la situación, ya que pueden aumentar el riesgo de una amputación a un nivel mayor.",
+                        "resaltar": false
+                    }
+                ]
+            }
+        ]
+    }
+    
+    ,
+    {
+        "titulo": "COMO ACTUAR ANTE UN GOLPE",
+        "etiquetas": "Primeros Auxilios",
+        "contenido": [
+            {
+                "subtema": "Qué hacer:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "a) Mantén la calma. No importa lo que haya ocurrido: si estás tranquilo serás más útil.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) Evalúa la gravedad. Si hay alguien inconsciente llama al servicio de emergencias (911).",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) Para disminuir la inflamación se recomienda aplicar una bolsa de hielo o un paquete de gel específico.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "d) No lo apliques directamente sobre la piel. Envuelve el hielo en una toalla, trapo o tela.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "e) Entre 10 y 20 minutos cada 2 horas, durante 2 o 3 días.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "f) Eleva el área lesionada, para ayudar a bajar la inflamación.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "Cuando buscar atención de emergencia:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "a) Cuando la persona está inconsciente o apenas responde a los estímulos.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) Dolor intenso de cabeza tras un golpe.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) Si sale líquido transparente o sangre por la nariz o por el oído.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "d) Convulsiones.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "Nota adicional:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "En cualquier época podemos darnos un golpe, pero el verano es especialmente propicio para ello. Vamos a hablar de dos de los traumatismos más frecuentes: los craneoencefálicos y los que nos damos en las extremidades.",
+                        "resaltar": false
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    
+    {
+        "titulo": "CUANDO TE CAE ALGO AL OJO",
+        "etiquetas": "Primeros Auxilios",
+        "contenido": [
+            {
+                "subtema": "Precaución:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "a) No trates de quitar un objeto incrustado en el ojo.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) No te frotes el ojo.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) No trates de quitar ningún objeto grande que parezca estar incrustado en el ojo o que asome entre los párpados.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "Como actuar:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "a) Permite que tus ojos comiencen a producir lágrimas durante algunos minutos, se recomiendan entre 2 a 3 minutos.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) Si la sensación persiste, lávate las manos con agua y jabón.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) Trata de enjuagar el ojo con un chorro suave de agua limpia y tibia para eliminar el objeto.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "Cuando buscar atención de emergencia:",
+                "resaltarSubtema": true,
+                "texto": [
+                    {
+                        "frase": "a) No puedes quitar el objeto con las lágrimas o con agua.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) El objeto está incrustado en el ojo.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) La persona con el objeto en el ojo tiene visión anormal.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "d) El dolor, el enrojecimiento o la sensación de cuerpo extraño en el ojo persiste durante más de 24 horas después de haber quitado el objeto.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "Se debe evitar soplar, tocar con las manos, limpiar con algo el ojo afectado ya que irrita a cornea, lo correcto es utilizar las lágrimas que de forma inmediata comienzan a brotar para que se limpien nuestros ojos. Sucede muy a menudo, lo correcto cuando estamos por ejemplo trabajando y sentimos el común: 'me cayó una basura en el ojo', dejemos que nuestros propios ojos se limpien con las lágrimas que producen.",
+                        "resaltar": false
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "COMO ACTUAR CON UNA AMPUTACIÓN DE UNA PARTE DEL CUERPO (AMPUTACIÓN TRAUMÁTICA)",
+        "etiquetas": "Emergencia, Primeros Auxilios, Hospitalización",
+        "contenido": [
+            {
+                "subtema": "Como actuar:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "a) Llame para pedir ayuda médica.",
+                        "resaltar": true
+                    },
+                    {
+                        "frase": "b) Examine las vías respiratorias de la persona (ábralas, si es necesario); verifique la respiración y circulación y, de ser necesario, inicie respiración artificial, RCP o control de la hemorragia.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) En lo posible, trate de calmar y darle seguridad a la persona. Las amputaciones son dolorosas y extremadamente atemorizantes.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "d) Controle la hemorragia aplicando presión directa sobre la herida. Eleve el área lesionada. Si la hemorragia continúa, revise de nuevo la fuente del sangrado y vuelva a aplicar presión directa, con la ayuda de alguien que no esté fatigado. Si la persona está sufriendo una hemorragia potencialmente mortal, será más fácil emplear un torniquete o un vendaje apretado que presión directa sobre la herida. Sin embargo, usar un vendaje apretado por mucho tiempo puede hacer más mal que bien.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "e) Conserve cualquier parte del cuerpo cercenada y asegúrese de que permanezca con la persona. Retire cualquier material sucio que pueda contaminar la herida si es posible y enjuague la parte del cuerpo muy suavemente si el extremo del corte está sucio.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "f) Envuelva la parte cercenada en un trozo de tela limpio y húmedo, colóquelo en una bolsa plástica sellada y sumerja la bolsa en agua helada.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "g) No coloque la parte afectada directamente en agua ni hielo sin usar una bolsa plástica.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "h) No coloque directamente la parte cercenada en hielo. No use hielo seco, ya que esto produce congelación y lesión de la parte afectada.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "i) Si no hay disponibilidad de agua fría, mantenga la parte alejada del calor tanto como sea posible. Consérvela para entregársela al equipo médico o llévela al hospital. El hecho de enfriar la parte cercenada permite una ventana de tiempo más larga para una reimplantación posterior. De lo contrario, sólo se conservará para la reimplantación de 4 a 6 horas.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "j) Mantenga a la persona caliente y calmada.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "k) Tome medidas para prevenir un shock. Coloque a la persona en posición horizontal, levántele los pies unas 12 pulgadas (30 cm) y cúbrala con un abrigo o manta. No coloque a la persona en esta posición si se sospecha una lesión en la cabeza, el cuello, la espalda o las piernas o si la posición le resulta incómoda.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "l) Una vez controlada la hemorragia, examine a la persona para ver si tiene otros signos de lesión que requieran tratamiento urgente. Trate las fracturas, las cortaduras adicionales u otras lesiones de una manera adecuada.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "m) Permanezca con la persona hasta que la ayuda médica llegue.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "No se debe:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "a) No olvide que salvar la vida de la persona es más importante que salvar una parte del cuerpo.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) No pase por alto otras lesiones menos obvias.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) No intente reacomodar alguna parte o hueso en su lugar.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "d) No decida que una parte del cuerpo es demasiado pequeña para salvarla.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "e) No coloque un torniquete, a menos que el sangrado sea potencialmente mortal, ya que se puede dañar la extremidad entera.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "f) No cree falsas esperanzas de reimplantación.",
+                        "resaltar": false
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "TRATAR CORRECTAMENTE UNA CORTADA",
+        "etiquetas": "Emergencia, Primeros Auxilios",
+        "contenido": [
+            {
+                "subtema": "Como actuar:",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "a) Lávese las manos con jabón o un limpiador antibacteriano para prevenir una infección.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) Luego, lave completamente la herida con agua y un jabón suave.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) Use presión directa para detener el sangrado.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "d) Aplique un vendaje limpio que no se pegue a la herida.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "Cuando contactar a un profesional médico:",
+                "resaltarSubtema": true,
+                "texto": [
+                    {
+                        "frase": "a) El sangrado es abundante o no se puede detener (por ejemplo, después de 10 minutos de presión).",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "b) La persona está gravemente lesionada de otra manera.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "c) La herida es grande o profunda, incluso si el sangrado no es constante.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "d) La herida tiene una profundidad de más de un cuarto de pulgada (.64 centímetros), se presenta en el rostro o llega hasta el hueso. Se pueden necesitar suturas.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "e) La persona ha sido mordida por un humano o por un animal.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "f) Usted no se ha hecho aplicar la vacuna antitetánica en los últimos 10 años.",
+                        "resaltar": false
+                    },
+                    {
+                        "frase": "g) Usted se paró en un clavo u otro objeto similar.",
+                        "resaltar": false
+                    }
+                ]
+            },
+            {
+                "subtema": "",
+                "resaltarSubtema": false,
+                "texto": [
+                    {
+                        "frase": "Al tratarse de una cortada que podamos identificar nosotros como poco profunda, evitaremos usar alcohol, agua oxigenada, lo correcto es solo utilizar agua y jabón que utilizamos para lavarnos el cuerpo, al tratarse de las denominadas: 'raspaduras', suelen solo desinfectarse con abundante agua y el jabón solicitado. Ya que al ser sobre todo y más comúnmente niños evitaremos el dolor al utilizar lo antes mencionado, cuando sean cortadas profundas o con mucha sangre de forma abundante, lo correcto será acudir con algún tipo de doctor u hospital cercano. Por otro lado, cuando existe perdida de piel o algún hueso se percibe, será acudir de forma inmediata a un hospital.",
+                        "resaltar": false
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "¿ES NECESARIO BEBER OCHO VASOS DE AGUA AL DÍA?",
+        "etiquetas": " Mito, Hidratación, Salud, Nutrición",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No precisamente. La cantidad que debe beber depende de la humedad y la temperatura promedio del clima del estado en el que reside, así como de su nivel de actividad y sus genes. El cuerpo necesita determinada cantidad de líquido al día, pero tal vez no sean ocho vasos, es decir, no hay una cantidad fija. Sin embargo, un color de orina que es claro o transparente, siempre es una buena señal, puesto que indica un nivel de hidratación adecuado."
+                ]
+            }
+        ]
+    },
+   
+    {
+        "titulo": "ES PELIGROSO AGUANTARSE UN ESTORNUDO",
+        "etiquetas": "Mito, Salud Respiratoria, Prevención",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "¡Sí! Aunque no lo crea, esto es cierto. Cuando se impide a propósito un estornudo, esto aplica demasiada presión a los senos paranasales y los pulmones, lo cual puede ocasionar que se revienten tanto vasos sanguíneos como los tímpanos, incluso, irritación en la garganta y otros efectos. Nuestros médicos han atendido a muchos pacientes que se aguantaron de más los estornudos. Aunque los efectos adversos son poco comunes, aún es posible padecerlos. Por lo tanto, la próxima vez que esté a punto de estornudar, ¡deje que salga por completo el estornudo, sobre todo si sufre de una enfermedad respiratoria preexistente!"
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿USAMOS SOLO EL 10% DE NUESTRA CAPACIDAD CEREBRAL?",
+        "etiquetas": "Mito, Cerebro, Neurociencia",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No. No se sabe qué cantidad de nuestra capacidad cerebral usamos, pero definitivamente es más del 10%. Aunque las tomografías computarizadas y las resonancias magnéticas han demostrado que hay ciertas áreas del cerebro que no usamos tanto, hasta las actividades más sencillas activan la mayoría de las áreas del cerebro. Algunas personas pueden usar más áreas del cerebro que otras, así que el porcentaje exacto depende de la persona."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "AL AFEITARSE, ¿CRECE EL CABELLO MÁS OSCURO Y GRUESO QUE ANTES?",
+        "etiquetas": "Mito, Cuidado Personal, Piel y Cabello",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Posiblemente. Aunque el afeitado puede estimular el crecimiento del cabello, la forma en la que el cabello vuelve a crecer depende en gran medida de sus genes. Por lo general, el cabello que vuelve a crecer no es más grueso ni más oscuro que antes. Sin embargo, crecerá más rápido."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿LEER CON POCA LUZ CAUSA EFECTOS ADVERSOS EN LA VISTA?",
+        "etiquetas": "Mito, Salud Ocular, Hábitos de Lectura",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No. Aunque la fatiga ocular sí es un padecimiento, las personas tienen diferentes niveles de tolerancia a la luz. Si usted es capaz de leer de manera adecuada con luz tenue sin sentir cansancio o dolor en los ojos, entonces, ¡disfrute de su libro en lo oscuro! Por otro lado, si le es difícil leer con luz tenue, quizá eso no sea lo más indicado para usted. Una vez más, esto es algo que depende de la persona y sus predilecciones."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿LAS PERSONAS SE VUELVEN MÁS BAJAS DE ESTATURA AL ENVEJECER?",
+        "etiquetas": "Mito, Envejecimiento, Salud Ósea",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "¡Sí! Con los años, puede disminuir el tamaño de los espacios entre las vértebras de la columna vertebral y eso reduce por una o dos pulgadas la estatura de las personas."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿TRONARSE LOS DEDOS OCASIONA ARTRITIS?",
+        "etiquetas": "Mito, Artritis, Salud Articular",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No. Esta es una idea equivocada común sobre la salud que no es cierta; no hay pruebas que la respalden en absoluto. Así que, si siente la necesidad de tronarse los dedos, hágalo, pero tome en cuenta que con el tiempo esto podría disminuir un poco la fuerza de prensión de sus manos."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "COMER PAVO OCASIONA SUEÑO",
+        "etiquetas": "Mito, Alimentación, Triptófano",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No precisamente. El pavo tiene la fama de ocasionarles sueño a las personas porque contiene triptófano, un aminoácido que a menudo se vincula con el sueño. Sin embargo, la realidad es que se sorprenderá al enterarse de cuántos otros alimentos también tienen un alto contenido de triptófano. Por lo tanto, comer pavo sí podría ser uno de los factores que contribuye al sueño que siente después de la cena del Día de Acción de Gracias, pero el puré de papa, el relleno y el pastel también tienen que ver."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿ES NECESARIO MANTENERSE DESPIERTO(A) DESPUÉS DE SUFRIR UNA CONMOCIÓN CEREBRAL?",
+        "etiquetas": "Mito, Traumatismos, Salud Cerebral",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No. En el pasado, la única forma de evaluar el funcionamiento cerebral de una persona que había sufrido una conmoción cerebral era despertarla a cada hora para así poder evaluar su capacidad de reaccionar. Hoy día, por medio de las tomografías computarizadas, las resonancias magnéticas y las tomografías por emisión de positrones nos podemos dar cuenta de qué tan consciente y orientada está la persona. De hecho, ahora sabemos que el cerebro se recupera más pronto cuando tiene mucho reposo."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿HACE DAÑO NADAR JUSTO DESPUÉS DE COMER?",
+        "etiquetas": "Mito, Natación, Digestión",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No. Aunque su mamá le haya comentado esta idea equivocada común sobre la salud, no es necesario que espere una hora para entrar a la piscina. La teoría original detrás de este mito era que el cuerpo quemaba tanta energía para digerir la comida que el flujo sanguíneo no alcanzaría a llegar a los brazos y las piernas, lo cual causaría que uno se ahogara. Esto es falso. Al nadar justo después de comer el único peligro es que posiblemente pudiera sentir malestar estomacal."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿LOS SUPLEMENTOS PUEDEN AYUDAR A COMBATIR LOS RESFRIADOS?",
+        "etiquetas": "Mito, Suplementos, Sistema Inmunológico",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Posiblemente. Los nutrientes como la vitamina C pueden reforzar el sistema inmunológico, lo cual puede ayudar a reducir el tiempo que dura un resfriado, pero esto es solo si los toma de la manera adecuada y con moderación, ya que podrían ser dañinos si se toman en exceso. El exceso de nutrientes que resulta al tomar los suplementos de forma irresponsable puede ocasionar insuficiencia de los riñones y el hígado. Por eso, ¡hable primero con su médico antes de intentar curarse el resfriado con suplementos!"
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿LOS DULCES Y OTROS ALIMENTOS AZUCARADOS CAUSAN ACNÉ GRAVE?",
+        "etiquetas": "Mito, Acné, Nutrición y Piel",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No. El azúcar definitivamente no ayuda con el acné, pero tampoco lo causa. Siempre y cuando no consuma en exceso alimentos dulces, es probable que el azúcar y los dulces no afectarán mucho su piel. La cantidad de acné que presenta depende casi exclusivamente de sus genes y hormonas."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿ES PELIGROSO DESPERTAR A UN SONÁMBULO?",
+        "etiquetas": "Mito, Trastornos del Sueño, Seguridad",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No precisamente. Despertar a un sonámbulo no ocasiona algún peligro a largo plazo. Sin embargo, lo mejor es encaminarlo tranquilamente a la cama en lugar de despertarlo a la fuerza. Esto protege al sonámbulo contra la desorientación (y le evite a usted una bofetada en la cara)."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "LOS ANTIDEPRESIVOS SON SOLO PARA TRATAR LA DEPRESIÓN",
+        "etiquetas": "Mito, Salud Mental, Antidepresivos",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Hay varios malentendidos comunes sobre el uso de antidepresivos. A menudo escucho a los pacientes decir que están más ansiosos que deprimidos, entonces, ¿por qué darles un antidepresivo? La razón de esto es que los químicos en su cuerpo que controlan la ansiedad y la depresión son muy similares. Por lo tanto, la vía para el tratamiento es similar. Pacientes con alta ansiedad a menudo se benefician de recibir un antidepresivo.",
+                    "Otra creencia común es que, si ha probado antidepresivos en el pasado, ahora no funcionarán. Este no es necesariamente el caso. Es posible que su dosis anterior no haya sido lo suficientemente alta o que no haya tomado el medicamento el tiempo suficiente para que sea efectivo. Siempre puede hablar con su médico de atención primaria sobre estas inquietudes."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "LOS ANTIBIÓTICOS SON SIEMPRE LA RESPUESTA",
+        "etiquetas": "Mito, Antibióticos, Infecciones",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Como médico, es mi deber determinar en base a su historial y examen físico si tiene una infección bacteriana o viral. Es una cuestión de su seguridad, también. Si se le administra un antibiótico innecesariamente, podría desarrollar efectos secundarios o volverse resistente a los antibióticos. Además, la mayoría de las infecciones virales se resolverán con descanso y bebiendo muchos líquidos."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "LA VACUNA CONTRA LA GRIPE PODRÍA DARME GRIPE",
+        "etiquetas": "Mito, Vacunación, Gripe",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Las vacunas contra la gripe están hechas de virus que no están activos. Hay potencial para la vacuna contra la gripe causar síntomas similares a los de la gripe durante los primeros 2-3 días, pero esto no es gripe. Además, todavía existe la posibilidad de contraer la gripe mientras su cuerpo todavía está tratando de desarrollar inmunidad, lo que puede demorar hasta dos semanas después de recibir la vacuna. Por lo tanto, si está expuesto a la gripe durante este período de dos semanas, podría contraer la gripe, pero no por la vacuna en sí."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "LA VACUNA CONTRA LA GRIPE PODRÍA DARME GRIPE",
+        "etiquetas": "Mito, Vacunación, Gripe",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Las vacunas contra la gripe están hechas de virus que no están activos. Hay potencial para la vacuna contra la gripe causar síntomas similares a los de la gripe durante los primeros 2-3 días, pero esto no es gripe. Además, todavía existe la posibilidad de contraer la gripe mientras su cuerpo todavía está tratando de desarrollar inmunidad, lo que puede demorar hasta dos semanas después de recibir la vacuna. Por lo tanto, si está expuesto a la gripe durante este período de dos semanas, podría contraer la gripe, pero no por la vacuna en sí."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "LA HEPATITIS B ES UNA ENFERMEDAD RARA, ASÍ QUE NO TENGO MUCHAS PROBABILIDADES DE CONTAGIARME",
+        "etiquetas": "Mito, Hepatitis B, Salud Pública",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "De acuerdo con la World Health Organization, la hepatitis B es un virus que infecta el hígado, y una de las enfermedades más infecciosas en el mundo. Se disemina a través de contacto con sangre y fluidos corporales de una persona afectada. Más de un tercio de la población mundial se encuentra aquejada con el virus de la hepatitis B. Mundialmente, cerca de 400 millones de personas están crónicamente infectadas, dice WHO, aumentando la oportunidad de que puedan contraer una enfermedad hepática grave y cáncer del hígado. WHO urge a todos los que puedan correr riesgo de hepatitis B para que visiten a un profesional y se hagan las pruebas."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿BEBER AGUA LE AYUDA A PERDER PESO?",
+        "etiquetas": "Mito, Pérdida de Peso, Hidratación",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Simplemente añadir agua a su dieta no le ayudará a perder peso. Sin embargo, podría haber beneficios en esta estrategia si beber más agua significa beber menos refrescos o bebidas con azúcar añadida. El solo hecho de añadir agua a una dieta normal no produce pérdida de peso, a menos que usted de pasos para reducir su ingesta calórica y comience un programa de ejercicio regular. Para perder de peso, nada resulta más efectivo que mejorar la dieta y estar más activo, dice el Dr. Collazo."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "COMER MANÍ MIENTRAS ESTÁ EMBARAZADA PUEDE CAUSAR ALERGIAS AL NIÑO",
+        "etiquetas": "Mito, Alergias, Embarazo",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Las alergias al maní son unas de las causas más comunes de reacciones severas a comer ciertos tipos de alimentos. El maní puede resultar en anafilaxia, el rápido desarrollo de reacciones alérgicas por todo el cuerpo, incluyendo inflamación de la garganta, erupciones con picazón y respiración silbante. Algunos estudios sugieren que las alergias al maní se están volviendo más comunes en la generación actual de niños."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "TOSER PUEDE AYUDAR A EVITAR UN ATAQUE CARDIACO",
+        "etiquetas": "Mito, Salud Cardíaca, Emergencias Médicas",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Toser no ayuda en el caso de un ataque cardiaco. Llamar al 911 después de reconocer los signos de aviso es lo mejor que puede hacer, además de iniciar RCP si la persona que está ayudando está capacitada para hacerlo. Aparentemente, hace unos años se propagó como una enfermedad contagiosa un correo electrónico asegurando que cualquiera que advierta los síntomas de un ataque cardiaco mientras está solo, debe toser 'repetida y vigorosamente, alternándolo con una respiración cada dos segundos más o menos hasta que llegue ayuda, o (regresa un latido cardiaco normal)'.",
+                    "Según la American Heart Association, la RCP tradicional no se utiliza para tratar víctimas de ataques cardiacos que están conscientes - sino solamente si el ataque cardiaco es seguido por un arresto cardiaco."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "HAY MERCURIO EN LOS PECES",
+        "etiquetas": "Creencias, Mercurio",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Sí, hay mercurio en los peces. Pero es seguro comer pescado, incluso hasta es recomendable. El pescado y los mariscos con bajos niveles de contaminantes son una parte importante de una dieta sana y bien balanceada. Si usted está embarazada, comer pescado o mariscos con bajos niveles de contaminantes puede ayudar al desarrollo del cerebro de su bebé. Los peces que más tienen mercurio (metal venenoso de color blanco plateado) regularmente son los que comen a otros, como podría ser un tiburón, pez espada, atún rojo o especies de robalo negro."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "MELATONINA: LA HORMONA CLAVE EN NUESTRO RELOJ BIOLÓGICO Y EL SUEÑO",
+        "etiquetas": "Creencias, Salud, Hormonas, Sueño",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "La melatonina es una hormona producida por la glándula pineal (órgano pequeño del cerebro que produce melatonina), cuya función principal está vinculada a la generación del sueño. Esto se relaciona con la hora del día y la cantidad de luz en el ambiente: cuando aumenta la oscuridad, se libera más melatonina.",
+                    "La melatonina forma parte esencial de lo que se conoce como ritmo circadiano, es un conjunto de modificaciones físicas y mentales que obedecen al «reloj biológico». Dicho reloj controla las señales cerebrales en un ciclo de 24 horas. Si bien la producción de la hormona es natural, con el paso de los años disminuye.",
+                    "En el momento del atardecer, cuando oscurece, el cerebro interpreta que debe generar melatonina para iniciar la sensación de sueño. No obstante, muchas personas con actividades nocturnas modifican el ritmo circadiano natural para postergar la acción de dormir."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "LENTEJAS: UN ALIMENTO RICO EN HIERRO",
+        "etiquetas": "Creencias, Nutrición, Hierro, Alimentos Saludables",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Los alimentos con hierro deben ser una constante en nuestra dieta, ya que, de lo contrario, aumenta el riesgo de padecer un déficit de este mineral, el cual desempeña un papel muy importante en el organismo y es necesario para algunas funciones básicas, como el transporte de oxígeno (el cual es un proceso fundamental que se lleva a cabo continuamente en el organismo humano para garantizar la supervivencia y el buen funcionamiento de todos los sistemas del cuerpo).",
+                    "Cuando pensamos en los alimentos vegetales que tienen más hierro, las lentejas son las primeras que se suelen citar. Y aunque no se trata de las primeras de la lista, esta fama la tienen bien merecida: 100 gramos de lentejas secas contienen 6,51 miligramos de este mineral.",
+                    "Como la mayoría de legumbres, se pueden introducir de forma muy variada en la dieta y durante todo el año. Esto es ideal para aumentar la ingesta de 3 a 4 veces a la semana. Las lentejas son, en particular, un alimento muy recomendable."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿CUÁL ES EL PAN MÁS SALUDABLE Y CUÁL EL MENOS RECOMENDADO?",
+        "etiquetas": "Creencias, Nutrición, Dieta, Alimentación Saludable",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "El pan y los cereales son parte fundamental de una dieta sana y equilibrada. Hay muchas personas que deciden prescindir de ellos con la idea de bajar de peso, sin embargo, los nutricionistas nos indican que no es adecuado.",
+                    "Lo esencial, sin duda, es mantener un equilibrio en todo lo que consumimos. Por ejemplo: comer una naranja o una manzana al día es muy sano, pero si consumes 5 naranjas tus niveles de azúcar empezarán a subir y dejará de ser sano para ti. Con el pan ocurre lo mismo.",
+                    "El pan de molde sería el menos recomendado. Contiene más grasas, azúcares y aditivos para que se pueda mantener durante más tiempo. Es menos saludable que el tradicional. Pero esto no quiere decir que sea “malo”, simplemente lo debes consumir en menos cantidad.",
+                    "El pan más saludable será aquel que contenga más grano y el que en su composición, tenga 100% harina integral (se tritura el grano entero del trigo y forma una harina que conserva todas sus propiedades), y para saberlo es conveniente que mires sus ingredientes."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "EL HUEVO AYUDA A CONTROLAR EL PESO",
+        "etiquetas": "Creencias, Nutrición, Dieta, Alimentos Saludables",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "El huevo juega un papel importante en la dieta. Además de su valor nutritivo, de ser culinariamente muy versátil y fácil de preparar, es barato.",
+                    "El huevo es el alimento con mayor densidad de nutrientes de entre los que habitualmente consumimos, es especialmente rico en proteínas de alto valor biológico, con un perfil de aminoácidos esenciales (un aminoácido es una de varias moléculas que se juntan entre sí para formar proteínas, y los aminoácidos esenciales no los puede producir el cuerpo, en consecuencia, deben provenir de los alimentos.) muy cercano al considerado ideal para el ser humano.",
+                    "El huevo a pesar de tener una cantidad inigualable de nutrientes y estar repleto de vitaminas y minerales es bajo en calorías, un huevo mediano contiene solamente unas 70 kcal. Además, gracias a su alto contenido en proteínas, aumentan la sensación de saciedad que se experimenta después de comer."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "SON BUENAS LAS BEBIDAS ENERGÉTICAS",
+        "etiquetas": "Creencias, Nutrición, Bebidas, Cafeína",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Las bebidas energéticas son refrescos a los que se les han añadido cafeína (es una sustancia amarga que se encuentra naturalmente en más de 60 plantas. También existe la cafeína sintética (hecha por el hombre), que se añade a algunos medicamentos, alimentos y bebidas). La cantidad de cafeína en las bebidas energéticas puede variar ampliamente, ya que a veces su etiqueta de información nutricional no entrega la cantidad real de cafeína que contiene. Las bebidas energéticas también pueden contener azúcares, vitaminas, hierbas y suplementos.",
+                    "No hay pruebas suficientes para demostrar que aumentan la fuerza o potencia. Pero lo que sí se sabe es que las bebidas energéticas pueden ser peligrosas porque contienen grandes cantidades de cafeína."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "ES SALUDABLE BEBER VINO CADA DÍA",
+        "etiquetas": "Creencias, Vino, Salud, Consumo Moderado",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Muchos médicos aconsejan a sus pacientes beber vino tinto cada día, porque hace bien a la salud. Por supuesto, se refieren a solamente una copa.",
+                    "Muchas personas siguen ese consejo al pie de la letra pero no siempre saben las verdaderas razones por las que el profesional les recomienda esa acción, simplemente la cumplen por quién lo dice.",
+                    "En Europa, las investigaciones afirman que el consumo de entre 22 y 32 gramos de alcohol por día tiene un efecto “protector” de la salud, evitando la mortalidad por muchas causas.",
+                    "En Dinamarca, Francia e Inglaterra se dice también que beber vino de manera moderada es mejor que la cerveza u otras bebidas alcohólicas."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "LA VITAMINA C AYUDA CONTRA EL RESFRIADO",
+        "etiquetas": "Creencias, Vitamina C, Resfriados, Salud",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "La creencia popular es que la vitamina C (es un nutriente hidrosoluble (una vitamina que se disuelve en agua) que se encuentra en ciertos alimentos) puede curar el resfriado común. Sin embargo, la investigación sobre esta afirmación es polémica.",
+                    "Aunque no está completamente probado, las dosis grandes de vitamina C pueden ayudar a reducir la duración de un resfriado. No protegen de contraerlo. La vitamina C también puede ser útil para aquéllos expuestos a períodos breves de actividad física grave o extrema.",
+                    "La probabilidad de éxito puede variar de una persona a otra."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "ES MÁS SALUDABLE LA MIEL QUE EL AZÚCAR",
+        "etiquetas": "Creencias, Miel, Azúcar, Nutrición, Salud",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Si bien los nutricionistas indican que siempre es mejor un té sin ningún endulzante, es más que habitual querer agregarles algo que aporte sabor dulce. Es entonces cuando queremos saber qué opción es la más indicada: la miel o el azúcar.",
+                    "Si nos referimos a la miel (siempre y cuando sea orgánica) debemos decir que endulza más que los azúcares refinados. Además, aporta, por ejemplo, antioxidantes (son sustancias naturales o fabricadas por el hombre que pueden prevenir o retrasar algunos tipos de daños a las células), vitaminas y minerales. Todo este conjunto de nutrientes puede ayudar a prevenir los resfriados, el dolor de garganta y la gripe, según un estudio realizado en ratas en el año 2016.",
+                    "Una pequeña cantidad de miel endulza mucho más que una cucharada de azúcar. Por tanto, necesitaremos menos para obtener los mismos (o mayores) resultados en los postres o infusiones.",
+                    "No hay que dejar de lado tampoco que el azúcar refinado aporta calorías vacías. Esto significa que no tiene ningún nutriente, no aporta vitaminas ni minerales."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "EL AJO DESINTOXICA LA SANGRE",
+        "etiquetas": "Creencias, Ajo, Desintoxicación, Salud",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No existe evidencia científica de que el ajo crudo, el ajo envejecido o cualquier suplemento de este alimento limpie la sangre. Por el contrario, expertos en medicina y nutrición advierten que cualquier cosa que afirme «desintoxicar» es probable que no sirva de nada.",
+                    "La razón es muy simple: tanto el hígado como los riñones se encargan de filtrar la sangre y descomponer las sustancias de desecho. Así las cosas, siempre y cuando estos órganos estén saludables, no es necesario ingerir ayudas externas para que el proceso se complete de forma óptima.",
+                    "Por supuesto, el ajo es uno de tantos alimentos que proporcionan nutrientes esenciales para el buen funcionamiento de estos órganos. Pero igual que en el caso anterior, por sí solo no es un purificador."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "LOS ALIMENTOS CONGELADOS SON MENOS NUTRITIVOS QUE LOS FRESCOS",
+        "etiquetas": "Creencias, Alimentos Congelados, Nutrición",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "El proceso de congelación no altera las cualidades de los alimentos, por lo que un pescado o una carne congelada tienen las mismas propiedades que si los comemos frescos. Respecto a las verduras congeladas, la proporción de vitaminas que éstas tienen después del cocinado, es similar a la que puedan tener las verduras frescas tras ser cocinadas.",
+                    "Por tanto, no existe ninguna razón para no comprar alimentos congelados, ya que esta puede ser una buena forma de tener alimentos saludables siempre a mano."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "SI REALIZO ACTIVIDAD FÍSICA/EJERCICIO, PUEDO COMER Y BEBER LO QUE QUIERA",
+        "etiquetas": "Creencias, Ejercicio, Nutrición, Alimentación Saludable",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "La actividad física es imprescindible para la salud. Son muchos los motivos para llevar una vida activa.",
+                    "Sin embargo, una alimentación no saludable tendrá consecuencias sobre nuestra salud difícilmente compensables con la práctica de ejercicio físico. Por ejemplo, las ventajas que obtienes entre comer una pieza de fruta o comer alimentos industriales no es solo la gran diferencia calórica entre uno y otro, sino que, además, la fruta nos aporta vitaminas, fibra, frente al alto contenido en grasas no saludables y azúcares refinados de la comida industrial."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "EL HUEVO ES MALO PARA EL COLESTEROL",
+        "etiquetas": "Creencias, Nutrición, Huevo, Colesterol",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No debemos clasificar los alimentos como buenos o malos, sino conocer las características de cada uno.",
+                    "El huevo ha sido tratado injustamente, ya que es un alimento muy completo y saludable. Es cierto que su yema es rica en colesterol, pero no hay que olvidar que el huevo posee también proteínas, vitaminas y minerales. Su consumo es adecuado en todas las edades.",
+                    "Por eso, es muy importante llevar una dieta variada y aumentar la actividad física."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "SE DEBE TOMAR SUPLEMENTOS DIETÉTICOS Y VITAMÍNICOS PARA MEJORAR LA SALUD",
+        "etiquetas": "Creencias, Suplementos, Nutrición, Salud",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "No es necesario, salvo en casos muy concretos (p.e. embarazo o determinadas condiciones, siempre con prescripción por un médico), tomar ningún tipo de suplemento si se toma una alimentación sana, variada y equilibrada. Tampoco, en épocas en las que nos sentimos con menos energía, en la que tenemos una actividad más intensa o cuando nos resfriamos con frecuencia.",
+                    "El consumo de suplementos nunca debe sustituir una dieta equilibrada y variada. Una de las muchas consecuencias positivas que aporta una dieta variada es que los distintos nutrientes interaccionan entre sí, produciendo unos beneficios cuando se consumen juntos que no se dan con el consumo de los suplementos."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "LOS BATIDOS DE PROTEÍNAS NO HACEN GANAR MÚSCULOS",
+        "etiquetas": "Creencias, Nutrición, Ejercicio, Suplementos",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Estas bebidas se promocionan como “adelgazantes que aumentan la masa muscular y multiplican el rendimiento en el gimnasio”. Sin embargo, la Administración de Alimentos y Medicamentos de Estados Unidos (FDA por sus siglas en inglés) y la Digemid advierten que los batidos de proteínas son suplementos nutricionales que no son imprescindibles para un deportista a menos que presente algún tipo de déficit de vitaminas. En ese caso, el suplemento debe ser recomendado por un nutricionista o un médico.",
+                    "El consumo de batidos de proteínas (soluciones en polvo) no ofrece ninguna ventaja o beneficio extraordinario frente a alimentos con nutrientes similares como una pechuga de pollo. La diferencia entre el consumo de un suplemento y un alimento natural es que el batido está disuelto y se digiere más rápido en nuestro organismo, es decir, llegará más rápido al músculo para repararlo."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "EL SUPLEMENTO DE COLÁGENO NO SE QUEDA EN EL CUERPO",
+        "etiquetas": "Creencias, Suplementos, Salud, Nutrición",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "El colágeno es la proteína más abundante de nuestro cuerpo y compone la cubierta que protege nuestro cabello, uñas y piel. Aporta resistencia y flexibilidad a nuestros tejidos, siendo un componente esencial de los huesos, tendones, ligamentos, cartílagos y la piel.",
+                    "La industria de suplementos promueve los suplementos de colágeno como la proteína ideal para ayudar a construir y reparar los músculos, tendones, ligamentos y cartílagos afectados durante el ejercicio. Sin embargo, cuando ingerimos suplementos de colágeno en cápsulas o en polvo, se trata de colágeno hidrolizado, un proceso que cambia las características del colágeno. Así, la proteína original deja de existir en su forma conocida, disminuyendo su eficacia para el propósito promocionado."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "SOLO UN ESPECIALISTA DE LA SALUD LOS PUEDE RECOMENDAR",
+        "etiquetas": "Creencias, Suplementos, Salud, Nutrición",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Si bien la opinión de un especialista de la salud siempre será importante para tomar las mejores decisiones sobre nuestra alimentación, los suplementos alimenticios, debido a su naturaleza alimentaria y bajo riesgo, son de libre venta y no requieren necesariamente la autorización de un profesional para su consumo en personas sanas."
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "¿LAS GRASAS VEGETALES SON MEJORES QUE LAS ANIMALES?",
+        "etiquetas": "Creencias, Grasas, Nutrición, Salud Cardiovascular",
+        "contenido": [
+            {
+                "subtema": "",
+                "texto": [
+                    "Depende de la composición de ácidos grasos de cada una de ellas. De manera general, las grasas vegetales tienen mayor proporción de ácidos grasos beneficiosos para nuestra salud cardiovascular, mientras que las grasas animales contienen más ácidos grasos saturados, que se recomienda consumir en menor proporción. Sin embargo, hay excepciones, como las grasas saturadas de origen vegetal provenientes del coco, palma y palmiste. Además, las grasas animales suelen contener vitaminas importantes para el correcto funcionamiento de nuestro organismo."
+                ]
+            }
+        ]
+    }
+    
+ 
+]
